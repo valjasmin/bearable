@@ -1,0 +1,145 @@
+<!DOCTYPE>
+<html>
+<head>
+  <link rel="stylesheet" href="moneystyle.css">
+  <script src ="moneyjs.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Bearable</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+<body>
+
+
+
+
+<ul>
+  <li><a class=home href="Home Page.html">Home</a></li>
+  <li><a class=about href="about.html">About</a></li>
+  <li><a class=money href="money.html">Money Management</a></li>
+  <li><a class=general_advice href="school.html">General Advice</a></li>
+  <li><a class=calendar href="calendar.html">Calendar</a></li>
+
+</ul>
+<br>
+<center><img src= "money.png"></center>
+<br><br>
+<ol>
+  <li>Type income</li><br>
+  <li>Fill out all expenses (if not applicable type 0)</li><br>
+  <li>Click Submit</li><br>
+  <li>Click refresh to submit new information</li><br>
+</ol>
+<br>
+<br>
+<div id="income" >
+<center>Income: <input id="incomei" type="text" value=" "></center>
+</div>
+
+
+
+
+<hr>
+
+
+
+
+<div class="dropdown" style="float:right">
+  <button class="dropbtn">Expenses</button>
+  <div class="dropdown-content">
+    <a onclick="showfood()">Food</a>
+    <a onclick="showtransport()">Transportation</a>
+    <a onclick="showperson()">Personal</a>
+  </div>
+</div>
+
+<div id="food" style="display:none">
+Cost of food: <input id="foodi" type="text" value=" " >
+</div>
+<div id="transport" style="display:none">
+Cost of tranportation: <input id="transportation" type="text" value=" " >
+</div>
+<div id="person" style="display:none">
+Cost of item: <input id="personal" type="text" value=" " >
+</div>
+
+<button onclick="submit();">Submit</button>
+
+<style>
+.pic
+{
+    position:absolute;
+width: 30%;height: 
+
+    z-index: -1;
+}
+
+.k
+{
+    position:absolute;
+
+    z-index: -1;
+}
+
+.column_left {
+   float: left;
+   width: 50%;
+   padding: 5px;
+   align: "center";
+}
+.column_right {
+   float: right;
+   width: 50%;
+   padding: 5px;
+   align: "center";
+}
+
+
+/* Clearfix (clear floats) */
+.row::after {
+   content: "";
+   clear: both;
+   display: table;
+}
+
+</style>
+<br>
+<br>
+<br>
+<br>
+
+<div class="row">
+  <div class="column_left">
+<img id="img0" src="jar.jpg" style="display:none" class="pic">
+<img id="img1" src="10p.png" style="display:none" class="pic">
+<img id="img2" src="20p.png" style="display:none" class="pic">
+<img id="img3" src="30p.png" style="display:none" class="pic">
+<img id="img4" src="40p.png" style="display:none" class="pic">
+<img id="img5"src="50p.png" style="display:none" class="pic">
+<img id="img6"src="60p.png" style="display:none" class="pic">
+<img id="img7"src="70p.png" style="display:none" class="pic">
+<img id="img8"src="80p.png" style="display:none" class="pic">
+<img id="img9"src="90p.png" style="display:none" class="pic">
+<img id="img10"src="100p.png" style="display:none" class="pic">
+</div>
+  <div class="column_right">
+    <img id="pic0" src="all.png" style="display:none" class="k">
+    <img id="pic10" src="10.png" style="display:none" class="k">
+    <img id="pic20" src="20.png" style="display:none" class="k">
+    <img id="pic30" src="30.png" style="display:none" class="k">
+    <img id="pic40" src="40.png" style="display:none" class="k">
+    <img id="pic50"src="50.png" style="display:none" class="k">
+    <img id="pic60"src="60.png" style="display:none" class="k">
+    <img id="pic70"src="70.png" style="display:none" class="k">
+    <img id="pic80"src="80.png" style="display:none" class="k">
+    <img id="pic90"src="90.png" style="display:none" class="k">
+  </div>
+</body>
+</html>

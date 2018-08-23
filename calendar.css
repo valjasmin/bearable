@@ -1,0 +1,74 @@
+
+
+div#top{ background:#ffb3ba repeat-x; height:90px; font-size:36px; font-family: "Times New Roman"; }
+div#middle{ min-width:200px; }
+div#middle > div{float:left; width:50%; }
+div#middle > div > div{ border:#000 0px solid;}
+div#middle > div > div > img{ width:30%; }
+div#about <link rel="stylesheet" type="text/css" href="about.html">
+h1 {color: black; font-size: 80px;}
+
+
+
+body{
+  margin:100px
+  bgcolor:#ffb3ba;
+  }
+
+/* taskbar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #D3D3D3;
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.home:hover{
+    background-color: #ffffba;
+}
+.home {
+    background-color: #D3D3D3;
+}
+
+.about:hover{
+    background-color: #ffdfba;
+}
+.about {
+    background-color: #D3D3D3;
+}
+
+.money:hover{
+    background-color: #baffc9;
+}
+.money {
+    background-color: #D3D3D3;
+}
+
+.general_advice:hover{
+    background-color: #bae1ff;
+}
+.general_advice {
+    background-color: #D3D3D3;
+}
+
+.calendar:hover{
+    background-color: #ffb3ba;
+}
+.calendar {
+    background-color: #D3D3D3;
+}
